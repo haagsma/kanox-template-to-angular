@@ -1,6 +1,7 @@
 # Kanox template para Angular
 
-Kanox template da colorlib.com adaptado para Angular versão 7
+Kanox template da colorlib adaptado para Angular versão 7
 
+Template orginal https://colorlib.com/preview/theme/kanox/index.html
 
-### Adaptado por Jhonatan Haagsma
+Adaptado por Jhonatan Haagsma
