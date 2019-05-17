@@ -82,6 +82,9 @@
         var number = $(this).index();
         sync1.data('owl.carousel').to(number, 300, true);
     });
+    $(".nav-link").on("click", function () {
+      $(".navbar-toggler").click();
+    })
 });
 
 
@@ -125,8 +128,8 @@
     $('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
  });
  
- //UPDATED 
-   
+ //UPDATED
+
  $('.slider').on('afterChange', function(event, slick, currentSlide){   
    $('.content').hide();
    $('.content[data-id=' + (currentSlide + 1) + ']').show();
